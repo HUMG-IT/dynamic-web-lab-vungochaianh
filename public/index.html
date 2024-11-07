@@ -23,6 +23,23 @@
     </section>
 
     <!-- Form Tính BMI -->
+     <section class="font-bold text-xl">
+        Tính chỉ số BMI
+     </section>
+     <form id="bmiForm">
+        <div class="flex gap-2 justify-center ">
+            <div class="flex gap-2 align-center">
+                <label for="height">Chiều cao (cm):</label>
+                <input type="text" id="height" name="height">
+            </div>
+            <div class="flex gap-2 align-center">
+                <label for="weight">Cân nặng (kg):</label>
+                <input type="text" id="weight" name="weight">
+            </div>
+            <button type="submit">Tính BMI</button>
+        </div>
+     </form>
+     <p id="bmiResult"></p>
     <!-- TODO: Tạo một section mới với tiêu đề "Tính chỉ số BMI" -->
     <!-- TODO: Tạo form với id là "bmiForm" -->
     <!-- TODO: Thêm input cho chiều cao -->
